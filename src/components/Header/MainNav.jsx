@@ -33,20 +33,18 @@ export default function MainNav() {
 
   return (
     <>
-<div className="w-full h-[64px] bg-white px-[45px] py-10 flex items-center justify-between relative z-50 shadow-sm">        <div className="flex flex-row items-center gap-40">
+      <div className="w-full h-[64px] bg-white px-[45px] py-10 flex items-center justify-between relative z-50 shadow-sm">
+        {' '}
+        <div className="flex flex-row items-center gap-40">
           {/* Logo */}
           <NavLink to="/" className="flex items-center shrink-0">
-            <img src="/images/logo2.png" alt="DZ Cargo" className="h-18 w-auto object-contain" />
+            <img src="images/logo2.png" alt="DZ Cargo" className="h-18 w-auto object-contain" />
           </NavLink>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-16">
             <LabelWhite>
-              <NavLink
-                to="/products"
-              >
-                Acheter des voitures
-              </NavLink>
+              <NavLink to="/products">Acheter des voitures</NavLink>
             </LabelWhite>
 
             <div className="relative">
@@ -100,13 +98,11 @@ export default function MainNav() {
             </LabelWhite>
           </nav>
         </div>
-
         {/* Right side */}
         {/* Favourites */}
         <NavLink to="/favourites" className="p-2 rounded-full border border-gray-200 hover:border-gray-400 transition">
           <Heart className="w-5 h-5 text-gray-600" />
         </NavLink>
-
         {/* Hamburger — mobile only */}
         <button className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition" onClick={() => setMobileOpen(true)}>
           <MenuIcon className="w-5 h-5 text-gray-700" />

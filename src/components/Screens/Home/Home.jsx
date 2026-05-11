@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
-            <div className="w-full flex h-[3px]">
+      <div className="w-full flex h-[3px]">
         <div className="flex-1" style={{ backgroundColor: '#005307' }} />
         <div className="flex-1" style={{ backgroundColor: '#FFFFFF' }} />
         <div className="flex-1" style={{ backgroundColor: '#C0392B' }} />

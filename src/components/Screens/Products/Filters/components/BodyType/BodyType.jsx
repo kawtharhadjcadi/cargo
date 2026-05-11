@@ -15,7 +15,12 @@ const bodyTypes = [
     count: 28,
     image: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=80',
   },
-  { id: 'saloon', label: 'Berline', count: 19, image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=80' },
+  {
+    id: 'saloon',
+    label: 'Berline',
+    count: 19,
+    image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=80',
+  },
   { id: 'coupe', label: 'Coupé', count: 8, image: 'https://images.unsplash.com/photo-1542362567-b07e54358753?w=80' },
 ];
 const BodyType = () => {

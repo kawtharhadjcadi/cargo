@@ -27,14 +27,14 @@ const BrandFilter = () => {
   );
 
   const carsLogo = [
-    { key: 1, icon: '/images/car-logo1.png' },
-    { key: 2, icon: '/images/car-logo2.png' },
-    { key: 3, icon: '/images/car-logo3.png' },
-    { key: 4, icon: '/images/car-logo4.png' },
-    { key: 5, icon: '/images/car-logo5.png' },
-    { key: 6, icon: '/images/car-logo6.png' },
-    { key: 7, icon: '/images/car-logo7.png' },
-    { key: 8, icon: '/images/car-logo8.png' },
+    { key: 1, icon: 'images/car-logo1.png' },
+    { key: 2, icon: 'images/car-logo2.png' },
+    { key: 3, icon: 'images/car-logo3.png' },
+    { key: 4, icon: 'images/car-logo4.png' },
+    { key: 5, icon: 'images/car-logo5.png' },
+    { key: 6, icon: 'images/car-logo6.png' },
+    { key: 7, icon: 'images/car-logo7.png' },
+    { key: 8, icon: 'images/car-logo8.png' },
   ];
 
   return (

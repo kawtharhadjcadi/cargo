@@ -97,7 +97,7 @@ const Gestion = () => {
             .filter(Boolean)
         : [],
       images: ['https://via.placeholder.com/200x150?text=No+Image'],
-      addedAgo: 'à l\'instant',
+      addedAgo: "à l'instant",
     };
 
     setData((prev) => [...prev, newCar]);
@@ -159,7 +159,7 @@ const Gestion = () => {
 
   const handleDuplicate = (car) => {
     const newRef = Math.max(...data.map((c) => c.reference), 0) + 1;
-    setData((prev) => [...prev, { ...car, reference: newRef, addedAgo: 'à l\'instant' }]);
+    setData((prev) => [...prev, { ...car, reference: newRef, addedAgo: "à l'instant" }]);
   };
 
   const fields = [
@@ -304,7 +304,9 @@ const Gestion = () => {
 
       {/* ADD/EDIT FORM */}
       <div className="mt-8 p-6 border rounded-lg">
-        <h2 className="text-lg font-semibold mb-4">{editingId ? `Modifier la voiture #${editingId}` : 'Ajouter une nouvelle voiture'}</h2>
+        <h2 className="text-lg font-semibold mb-4">
+          {editingId ? `Modifier la voiture #${editingId}` : 'Ajouter une nouvelle voiture'}
+        </h2>
 
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
           {fields.map(({ key, label, type }) => (

@@ -4,11 +4,11 @@ const BrowseByLifestyle = () => {
   React.useEffect(() => {}, []);
 
   const bodyCar = [
-    { key: 1, icon: '/images/car-elec.png', title: 'VE' },
-    { key: 2, icon: '/images/car-suv.png', title: 'SUV' },
-    { key: 3, icon: '/images/car-sedan.png', title: 'Camion' },
-    { key: 4, icon: '/images/car-hybride.png', title: 'Sedan' },
-    // { key: 5, icon: '/images/hybrid.png', title: 'Hybrid' },
+    { key: 1, icon: 'images/car-elec.png', title: 'VE' },
+    { key: 2, icon: 'images/car-suv.png', title: 'SUV' },
+    { key: 3, icon: 'images/car-sedan.png', title: 'Camion' },
+    { key: 4, icon: 'images/car-hybride.png', title: 'Sedan' },
+    // { key: 5, icon: 'images/hybrid.png', title: 'Hybrid' },
   ];
 
   return (

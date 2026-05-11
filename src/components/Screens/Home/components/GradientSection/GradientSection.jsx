@@ -6,7 +6,7 @@ import React from 'react';
 const GradientSection = () => {
   return (
     <section className="relative w-full h-[80vh] overflow-hidden px-[45px] py-[50px]">
-      <img src="/images/gardient_img.png" alt="car" className="absolute inset-0 w-full h-full object-cover" />
+      <img src="images/gardient_img.png" alt="car" className="absolute inset-0 w-full h-full object-cover" />
 
       <div
         className="absolute inset-0"

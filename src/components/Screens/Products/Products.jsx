@@ -36,11 +36,15 @@ const Products = () => {
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/"><TextExtraExtraSmallBlack>Acceuil</TextExtraExtraSmallBlack></BreadcrumbLink>
+                <BreadcrumbLink href="/">
+                  <TextExtraExtraSmallBlack>Acceuil</TextExtraExtraSmallBlack>
+                </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbPage><TextExtraExtraSmallBlack>Voitures</TextExtraExtraSmallBlack></BreadcrumbPage>
+                <BreadcrumbPage>
+                  <TextExtraExtraSmallBlack>Voitures</TextExtraExtraSmallBlack>
+                </BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>

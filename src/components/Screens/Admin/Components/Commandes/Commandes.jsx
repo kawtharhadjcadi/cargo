@@ -34,7 +34,7 @@ const Commandes = () => {
       email: 'sarah.m@gmail.com',
       phone: '+33 7 11 22 33 44',
       enquiryType: 'Poser une question',
-      enquiryText: 'Cette voiture a-t-elle un historique d\'entretien complet ?',
+      enquiryText: "Cette voiture a-t-elle un historique d'entretien complet ?",
       carReference: 52,
       carName: '2018 Mercedes-Benz Classe C',
       createdAt: '2024-01-14',
