@@ -9,11 +9,14 @@ const Footer = () => {
   return (
     <footer className="px-[45px] pb-6">
       {/* Bottom bar */}
-      <div className="border-gray-300 pt-5 flex flex-col md:flex-row items-center justify-between gap-3">
+      {/* <hr /> */}
+      <div className="border-gray-300 pt-2 flex flex-col md:flex-row items-center justify-between gap-3">
         <NavLink to="/" className="flex items-center shrink-0">
           <img src="images/logo2.png" alt="DZ Cargo" className="h-18 w-auto object-contain" />
         </NavLink>
-        <p className="text-xs text-gray-500">© 2026 DZ Cargo.</p>
+        <p className="text-xs text-gray-500">
+          Votre intermédiaire commercial pour l'achat et l'expédition de voitures chinoises vers l'Algérie
+        </p>
         <div className="flex items-center gap-3 mt-1">
           {[
             {
@@ -40,6 +43,9 @@ const Footer = () => {
             </button>
           ))}
         </div>
+      </div>
+      <div className="flex items-center justify-center mt-4">
+        <p className="text-xs text-gray-500">© 2026 DZ Cargo.</p>
       </div>
     </footer>
   );

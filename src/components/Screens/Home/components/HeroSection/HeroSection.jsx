@@ -5,7 +5,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[74vh] overflow-hidden px-6 md:px-[45px] flex items-center bg-gray-100">
+    <section className="relative w-full md:h-[80vh] lg:h-[70vh] sm:py-[6px] overflow-hidden px-[45px] flex items-center bg-gray-100">
       <div className="flex flex-col lg:flex-row items-center justify-between w-full gap-6 lg:gap-10">
         {/* Left — Text */}
         <div className="flex flex-col justify-center w-full lg:max-w-[580px] z-10">
@@ -13,10 +13,10 @@ const HeroSection = () => {
           <div className="flex flex-wrap items-center gap-2 mb-3">
             <LogoGreen className="text-xl md:text-2xl">Bienvenue sur</LogoGreen>
             <LabelHederGardianSection className="text-2xl md:text-4xl font-medium">DZ Cargo</LabelHederGardianSection>
-            <div className="flex items-center gap-1">
+            {/* <div className="flex items-center gap-1">
               <img src="https://flagcdn.com/w40/dz.png" alt="Algeria" className="w-6 h-5 rounded-full object-cover" />
               <img src="https://flagcdn.com/w40/cn.png" alt="China" className="w-6 h-5 rounded-full object-cover" />
-            </div>
+            </div> */}
           </div>
 
           <TextSmall>

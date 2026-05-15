@@ -1,23 +1,72 @@
 import { ChevronDown, Heart, Menu as MenuIcon, X } from 'lucide-react';
 import { NavLink, useNavigate } from 'react-router-dom';
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
+} from '@/components/ui/navigation-menu';
+import React, { useState } from 'react';
 
+import Facebook from '../Icons/Facebook';
+import Instagram from '../Icons/Instagram';
 import { LabelWhite } from '../../Style/TextStyle';
+import ListItem from './ListItem';
 import { Navigation } from '../Navigation';
-import { useState } from 'react';
+import TikTok from '../Icons/TikTok';
 
 const marques = [
-  'BMW',
-  'Mercedes-Benz',
-  'Audi',
-  'Volkswagen',
-  'Toyota',
-  'Ford',
-  'Renault',
-  'Peugeot',
-  'Tesla',
-  'Honda',
-  'Nissan',
-  'Citroën',
+  {
+    title: 'BMW',
+    href: '/product',
+  },
+  {
+    title: 'Mercedes-Benz',
+    href: '/product',
+  },
+  {
+    title: 'Audi',
+    href: '/product',
+  },
+  {
+    title: 'Volkswagen',
+    href: '/product',
+  },
+  {
+    title: 'Toyota',
+    href: '/product',
+  },
+  {
+    title: 'Ford',
+    href: '/product',
+  },
+  {
+    title: 'Renault',
+    href: '/product',
+  },
+  {
+    title: 'Peugeot',
+    href: '/product',
+  },
+  {
+    title: 'Tesla',
+    href: '/product',
+  },
+  {
+    title: 'Honda',
+    href: '/product',
+  },
+  {
+    title: 'Nissan',
+    href: '/product',
+  },
+  {
+    title: 'Citroën',
+    href: '/product',
+  },
 ];
 
 export default function MainNav() {
@@ -35,85 +84,98 @@ export default function MainNav() {
     <>
       <div className="w-full h-[64px] bg-white px-[45px] py-10 flex items-center justify-between relative z-50 shadow-sm">
         {' '}
-        <div className="flex flex-row items-center gap-40">
+        <div className="flex flex-row items-center gap-8">
           {/* Logo */}
           <NavLink to="/" className="flex items-center shrink-0">
             <img src="images/logo2.png" alt="DZ Cargo" className="h-18 w-auto object-contain" />
           </NavLink>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-16">
-            <LabelWhite>
-              <NavLink to="/products">Acheter des voitures</NavLink>
-            </LabelWhite>
-
-            <div className="relative">
-              <button onClick={() => setMarquesOpen(!marquesOpen)} className="flex items-center gap-1">
-                <LabelWhite>Marques</LabelWhite>
-                <ChevronDown className={`w-4 h-4 transition-transform ${marquesOpen ? 'rotate-180' : ''}`} />
-              </button>
-
-              {marquesOpen && (
-                <>
-                  <div className="fixed inset-0 z-40" onClick={() => setMarquesOpen(false)} />
-                  <div className="absolute top-8 left-0 z-50 bg-white border border-gray-100 rounded-xl shadow-lg p-3 w-56">
-                    <div className="grid grid-cols-2 gap-1">
-                      {marques.map((marque) => (
-                        <button
-                          key={marque}
-                          onClick={() => handleMarqueClick(marque)}
-                          className="text-left text-sm text-gray-700 hover:bg-gray-50 hover:text-green-700 px-3 py-2 rounded-lg transition"
-                        >
-                          {marque}
-                        </button>
-                      ))}
-                    </div>
-                    <div className="border-t border-gray-100 mt-2 pt-2">
-                      <button
-                        onClick={() => {
-                          navigate('/products');
-                          setMarquesOpen(false);
-                        }}
-                        className="text-sm text-green-700 font-medium hover:underline px-3"
-                      >
-                        Voir toutes les marques →
-                      </button>
-                    </div>
-                  </div>
-                </>
-              )}
-            </div>
-
-            <LabelWhite>
-              <NavLink
-                to="/contact"
-                // className={({ isActive }) =>
-                //   `text-sm font-medium transition pb-0.5 ${isActive
-                //     ? 'text-gray-900 border-b-2 border-gray-900'
-                //     : 'text-gray-600 hover:text-gray-900'}`
-                // }
-              >
-                Contact
-              </NavLink>
-            </LabelWhite>
-          </nav>
         </div>
-        {/* Right side */}
-        {/* Favourites */}
-        <NavLink to="/favourites" className="p-2 rounded-full border border-gray-200 hover:border-gray-400 transition">
-          <Heart className="w-5 h-5 text-gray-600" />
+        <nav className="hidden lg:flex items-center gap-6">
+          <LabelWhite>
+            <NavLink to="/products">Voitures nouveau</NavLink>
+          </LabelWhite>
+
+          <LabelWhite>
+            <NavLink to="/products">Voitures moins 3ans</NavLink>
+          </LabelWhite>
+
+          <LabelWhite>
+            <NavLink to="/products">Pieces</NavLink>
+          </LabelWhite>
+
+          <NavigationMenu>
+            <NavigationMenuList>
+              <NavigationMenuItem>
+                <LabelWhite>
+                  <NavigationMenuTrigger>Marques</NavigationMenuTrigger>
+                </LabelWhite>
+                <NavigationMenuContent>
+                  <ul className="grid w-[400px] gap-2 md:w-[300px] md:grid-cols-2 lg:w-[300px]">
+                    {/* {components.map((component) => (
+                        <ListItem key={component.title} title={component.title} href={component.href}>
+                          {component.description}
+                        </ListItem>
+                      ))} */}
+                    {marques.map((marque) => (
+                      <ListItem key={marque.title} title={marque.title} href={marque.href} />
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+
+          <LabelWhite>
+            <NavLink to="/contact">Contact</NavLink>
+          </LabelWhite>
+        </nav>
+        <NavLink to="/favourites" className="p-2 hidden lg:flex">
+          <div className="flex items-center gap-3 mt-1">
+            {[
+              {
+                label: 'Facebook',
+                path: <Facebook />,
+              },
+              {
+                label: 'Instagram',
+                path: <Instagram />,
+              },
+              {
+                label: 'TikTok',
+                path: <TikTok />,
+              },
+            ].map((icon) => (
+              <button
+                key={icon.label}
+                className="w-9 h-9 rounded-full flex items-center justify-center border border-gray-400 hover:border-green-700 hover:bg-white transition"
+                aria-label={icon.label}
+              >
+                {icon.path}
+              </button>
+            ))}
+          </div>
         </NavLink>
         {/* Hamburger — mobile only */}
-        <button className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition" onClick={() => setMobileOpen(true)}>
+        <button className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition" onClick={() => setMobileOpen(true)}>
           <MenuIcon className="w-5 h-5 text-gray-700" />
         </button>
+      </div>
+
+      <div className="w-full bg-gray-50 border-b border-gray-200 px-[45px] py-2 flex items-end justify-end gap-8">
+        <span className="text-sm text-gray-600">Contact</span>
+        <div className="flex items-center gap-1">
+          <img src="https://flagcdn.com/w40/dz.png" alt="Algeria" className="w-6 h-5 rounded-full object-cover" />
+          <img src="https://flagcdn.com/w40/cn.png" alt="China" className="w-6 h-5 rounded-full object-cover" />
+        </div>
       </div>
 
       {/* Mobile Side Menu */}
       {mobileOpen && (
         <>
-          <div className="fixed inset-0 bg-black/30 z-40 md:hidden" onClick={() => setMobileOpen(false)} />
-          <div className="fixed top-0 left-0 h-screen w-72 bg-white z-50 flex flex-col shadow-xl md:hidden">
+          <div className="fixed inset-0 bg-black/30 z-40" onClick={() => setMobileOpen(false)} />
+          <div className="fixed top-0 left-0 h-screen w-72 bg-white z-50 flex flex-col shadow-xl">
             {/* Header */}
             <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100">
               <span className="text-lg font-bold">
@@ -166,6 +228,21 @@ export default function MainNav() {
               >
                 Contact
               </NavLink>
+            </div>
+            <div className="flex items-center gap-3 px-3 py-4 border-t border-gray-100 mt-auto">
+              {[
+                { label: 'Facebook', path: <Facebook /> },
+                { label: 'Instagram', path: <Instagram /> },
+                { label: 'TikTok', path: <TikTok /> },
+              ].map((icon) => (
+                <button
+                  key={icon.label}
+                  className="w-9 h-9 rounded-full flex items-center justify-center border border-gray-400 hover:border-green-700 hover:bg-white transition"
+                  aria-label={icon.label}
+                >
+                  {icon.path}
+                </button>
+              ))}
             </div>
           </div>
         </>

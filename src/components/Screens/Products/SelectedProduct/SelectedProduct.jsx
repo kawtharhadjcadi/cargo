@@ -189,6 +189,7 @@ const SelectedProduct = () => {
 
               {/* Price */}
               <p className="text-4xl font-bold mt-4">£{car.price.toLocaleString()}</p>
+              <p>prix sans dedoinement</p>
 
               {/* Message form */}
               <MessageForm />

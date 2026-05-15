@@ -15,7 +15,7 @@ export const LogoWhite = styled.div`
 `;
 
 export const LabelWhite = styled.div`
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   font-family: 'poppins', serif;
   font-weight: 500;
@@ -32,7 +32,9 @@ export const LabelWhite = styled.div`
     cursor: pointer;
 
     &:hover,
-    &:focus {
+    &:active,
+    &:focus,
+    &[data-state='open'] {
       color: #c0392b;
       text-decoration: underline;
       text-decoration-thickness: 2px;
