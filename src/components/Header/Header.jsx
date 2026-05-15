@@ -1,4 +1,4 @@
-import MainNav from './mainNav';
+import MainNav from './MainNav';
 
 export default function Header() {
   return (
