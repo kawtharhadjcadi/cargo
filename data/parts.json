@@ -10,7 +10,9 @@
     "material": "Acier",
     "partNumber": "BSH-OIL-0986AF1",
     "description": "Filtre à huile compatible BYD Han EV et autres modèles BYD.",
-    "images": []
+    "images": [
+      { "url": "https://placehold.co/600x400/f97316/ffffff?text=Filtre+à+huile" }
+    ]
   },
   {
     "id": 2,
@@ -23,7 +25,9 @@
     "material": "Composite",
     "partNumber": "TRW-GDB2104",
     "description": "Plaquettes avant pour Chery Tiggo 4, 7 et 8. Compatible avec les étriers Brembo.",
-    "images": []
+    "images": [
+      { "url": "https://placehold.co/600x400/dc2626/ffffff?text=Plaquettes+de+frein" }
+    ]
   },
   {
     "id": 3,
@@ -36,7 +40,9 @@
     "material": "Acier",
     "partNumber": "KYB-339710",
     "description": "Amortisseur avant monotube haute performance pour Geely Coolray et Emgrand.",
-    "images": []
+    "images": [
+      { "url": "https://placehold.co/600x400/3b82f6/ffffff?text=Amortisseur+avant" }
+    ]
   },
   {
     "id": 4,
@@ -49,7 +55,9 @@
     "material": "Aluminium",
     "partNumber": "VAL-437458",
     "description": "Alternateur 120A de remplacement pour MG ZS et MG 5 moteur 1.5L VTi.",
-    "images": []
+    "images": [
+      { "url": "https://placehold.co/600x400/eab308/ffffff?text=Alternateur" }
+    ]
   },
   {
     "id": 5,
@@ -62,7 +70,9 @@
     "material": "Plastique",
     "partNumber": "BYD-A3-FC-001",
     "description": "Pare-choc avant d'origine pour BYD Atto 3 2022-2024. Livré sans peinture.",
-    "images": []
+    "images": [
+      { "url": "https://placehold.co/600x400/6b7280/ffffff?text=Pare-choc+avant" }
+    ]
   },
   {
     "id": 6,
@@ -75,7 +85,9 @@
     "material": "Composite",
     "partNumber": "CHR-T8-SEAT-D",
     "description": "Siège conducteur en cuir d'occasion en très bon état, démonté d'un Tiggo 8 Pro 2022 accidenté.",
-    "images": []
+    "images": [
+      { "url": "https://placehold.co/600x400/7c3aed/ffffff?text=Siège+conducteur" }
+    ]
   },
   {
     "id": 7,
@@ -88,7 +100,9 @@
     "material": "Caoutchouc",
     "partNumber": "GAT-T227RB",
     "description": "Kit courroie de distribution complet pour Toyota Land Cruiser 300 moteur 3.5 V6 Twin Turbo.",
-    "images": []
+    "images": [
+      { "url": "https://placehold.co/600x400/f97316/ffffff?text=Courroie+distribution" }
+    ]
   },
   {
     "id": 8,
@@ -101,6 +115,8 @@
     "material": "Acier",
     "partNumber": "BRB-08B51911",
     "description": "Paire de disques arrière ventilés pour MG 5. Diamètre 280mm.",
-    "images": []
+    "images": [
+      { "url": "https://placehold.co/600x400/dc2626/ffffff?text=Disques+de+frein" }
+    ]
   }
 ]
