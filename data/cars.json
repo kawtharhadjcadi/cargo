@@ -17,8 +17,8 @@
     "description": "La BYD Han EV est une berline électrique haut de gamme avec une autonomie de 605 km. Intérieur luxueux, technologie de pointe et performances exceptionnelles.",
     "features": "Toit panoramique,Sièges chauffants,Caméra 360°,Chargeur sans fil,Affichage tête haute",
     "images": [
-      { "url": "https://placehold.co/800x500/1a1a2e/ffffff?text=BYD+Han+EV+2024", "colour": "Noir" },
-      { "url": "https://placehold.co/800x500/f5f5f5/333333?text=BYD+Han+EV+2024", "colour": "Blanc" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/2024_BYD_Han.jpg", "colour": "Noir" },
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/2024_BYD_Han.jpg", "colour": "Blanc" }
     ]
   },
   {
@@ -39,8 +39,8 @@
     "description": "SUV 7 places avec moteur turbo 2.0L, boîte automatique CVT, équipements complets et design moderne.",
     "features": "Écran tactile 12\",Apple CarPlay,Android Auto,Régulateur de vitesse adaptatif,Lane assist",
     "images": [
-      { "url": "https://placehold.co/800x500/f5f5f5/333333?text=Chery+Tiggo+8+Pro", "colour": "Blanc" },
-      { "url": "https://placehold.co/800x500/6b7280/ffffff?text=Chery+Tiggo+8+Pro", "colour": "Gris" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Chery_Tiggo_8_Pro_001.jpg", "colour": "Blanc" },
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Chery_Tiggo_8_Pro_001.jpg", "colour": "Gris" }
     ]
   },
   {
@@ -61,7 +61,7 @@
     "description": "Compact SUV sportif avec moteur turbo 1.5L développant 177 ch. Finition soignée et technologie moderne.",
     "features": "Jantes 18\",Toit ouvrant,Caméra de recul,Bluetooth,Climatisation automatique",
     "images": [
-      { "url": "https://placehold.co/800x500/dc2626/ffffff?text=Geely+Coolray+2024", "colour": "Rouge" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Geely_Coolray_1.5_Premium_2024_%281%29.jpg", "colour": "Rouge" }
     ]
   },
   {
@@ -82,7 +82,7 @@
     "description": "Berline Geely Emgrand 2024, finition élégante, faible consommation et équipements complets en série.",
     "features": "Écran tactile 10\",Apple CarPlay,Bluetooth,Caméra recul,Climatisation auto",
     "images": [
-      { "url": "https://placehold.co/800x500/9ca3af/ffffff?text=Geely+Emgrand+2024", "colour": "Argent" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Geely_Emgrand_1.5_Comfort_2023_%281%29.jpg", "colour": "Argent" }
     ]
   },
   {
@@ -103,8 +103,8 @@
     "description": "La sportive électrique BYD Seal AWD. 0 à 100 km/h en 3.8 secondes, autonomie 570 km, technologie blade battery.",
     "features": "AWD,Mode sport,Sièges sport,Toit panoramique,Son Dynaudio,Affichage tête haute",
     "images": [
-      { "url": "https://placehold.co/800x500/111827/ffffff?text=BYD+Seal+2024", "colour": "Noir" },
-      { "url": "https://placehold.co/800x500/f9fafb/333333?text=BYD+Seal+2024", "colour": "Blanc" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/BYD_Seal_2023010703.jpg", "colour": "Noir" },
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/BYD_Seal_2023010703.jpg", "colour": "Blanc" }
     ]
   },
   {
@@ -125,7 +125,7 @@
     "description": "Berline MG 5 2023 en excellent état, faible kilométrage, première main. Carnet d'entretien complet.",
     "features": "Écran tactile,Caméra recul,Capteurs parking",
     "images": [
-      { "url": "https://placehold.co/800x500/f5f5f5/333333?text=MG+5+2023", "colour": "Blanc" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/2023_MG_5_SW_Trophy_Long_Range_in_Arctic_White_%28Front%29.jpg", "colour": "Blanc" }
     ]
   },
   {
@@ -146,7 +146,7 @@
     "description": "Citadine électrique BYD Dolphin 2023. Autonomie 340 km, recharge rapide DC. Parfaite pour la ville.",
     "features": "Sièges chauffants,Chargeur sans fil,Écran 12.8\",OTA Updates",
     "images": [
-      { "url": "https://placehold.co/800x500/38bdf8/ffffff?text=BYD+Dolphin+2023", "colour": "Bleu ciel" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/BYD_Dolphin%2C_2023%2C_Japan%2C_front.jpg", "colour": "Bleu ciel" }
     ]
   },
   {
@@ -167,7 +167,7 @@
     "description": "SUV Chery Tiggo 4 Pro 2022 bien entretenu. Toutes les révisions faites chez le concessionnaire.",
     "features": "Apple CarPlay,Caméra 360°,Toit panoramique,Régulateur de vitesse",
     "images": [
-      { "url": "https://placehold.co/800x500/6b7280/ffffff?text=Tiggo+4+Pro+2022", "colour": "Gris" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/2024_Chery_Tiggo_4_front_view.png", "colour": "Gris" }
     ]
   },
   {
@@ -188,7 +188,7 @@
     "description": "Toyota Land Cruiser 300 Series 2023, GR Sport. Capacités off-road exceptionnelles, luxe et fiabilité légendaire.",
     "features": "Suspension pneumatique,Diff lock,Caméra multivue,Écran 9\",7 places cuir",
     "images": [
-      { "url": "https://placehold.co/800x500/f5f5f5/333333?text=Land+Cruiser+2023", "colour": "Blanc" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Toyota_Land_Cruiser_300_4x4_VXR_2023_%285%29.jpg", "colour": "Blanc" }
     ]
   },
   {
@@ -209,7 +209,7 @@
     "description": "SUV électrique BYD Atto 3 disponible à la location. Autonomie 420 km, assurance incluse, sans limite kilométrique.",
     "features": "Chargeur de bord 7kW,Apple CarPlay,Caméra 360°,Bluetooth",
     "images": [
-      { "url": "https://placehold.co/800x500/1d4ed8/ffffff?text=BYD+Atto+3+Location", "colour": "Bleu" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/BYD_Atto_3_front-left.jpg", "colour": "Bleu" }
     ]
   },
   {
@@ -230,7 +230,7 @@
     "description": "SUV Chery Tiggo 7 Pro à louer. Parfait pour les déplacements professionnels ou familiaux. Kilométrage illimité.",
     "features": "GPS,Bluetooth,Climatisation,Caméra recul",
     "images": [
-      { "url": "https://placehold.co/800x500/f5f5f5/333333?text=Tiggo+7+Pro+Location", "colour": "Blanc" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Chery_Tiggo_7_II_015.jpg", "colour": "Blanc" }
     ]
   },
   {
@@ -251,7 +251,7 @@
     "description": "MG ZS EV disponible à la location longue durée ou à la journée. Zéro émission, économique et confortable.",
     "features": "Recharge rapide DC,Apple CarPlay,Caméra 360°,Toit ouvrant",
     "images": [
-      { "url": "https://placehold.co/800x500/f9fafb/333333?text=MG+ZS+EV+Location", "colour": "Blanc" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/MG_ZS_EV_Facelift_1X7A5867.jpg", "colour": "Blanc" }
     ]
   }
 ]

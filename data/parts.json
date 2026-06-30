@@ -11,7 +11,7 @@
     "partNumber": "BSH-OIL-0986AF1",
     "description": "Filtre à huile compatible BYD Han EV et autres modèles BYD.",
     "images": [
-      { "url": "https://placehold.co/600x400/f97316/ffffff?text=Filtre+à+huile" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Oil_filter.JPG" }
     ]
   },
   {
@@ -26,7 +26,7 @@
     "partNumber": "TRW-GDB2104",
     "description": "Plaquettes avant pour Chery Tiggo 4, 7 et 8. Compatible avec les étriers Brembo.",
     "images": [
-      { "url": "https://placehold.co/600x400/dc2626/ffffff?text=Plaquettes+de+frein" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Brake_pads.JPG" }
     ]
   },
   {
@@ -41,7 +41,7 @@
     "partNumber": "KYB-339710",
     "description": "Amortisseur avant monotube haute performance pour Geely Coolray et Emgrand.",
     "images": [
-      { "url": "https://placehold.co/600x400/3b82f6/ffffff?text=Amortisseur+avant" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Shock_Absorbers_Detail.jpg" }
     ]
   },
   {
@@ -56,7 +56,7 @@
     "partNumber": "VAL-437458",
     "description": "Alternateur 120A de remplacement pour MG ZS et MG 5 moteur 1.5L VTi.",
     "images": [
-      { "url": "https://placehold.co/600x400/eab308/ffffff?text=Alternateur" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Automotive_alternator.jpg" }
     ]
   },
   {
@@ -71,7 +71,7 @@
     "partNumber": "BYD-A3-FC-001",
     "description": "Pare-choc avant d'origine pour BYD Atto 3 2022-2024. Livré sans peinture.",
     "images": [
-      { "url": "https://placehold.co/600x400/6b7280/ffffff?text=Pare-choc+avant" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/BYD_Atto_3_front-left.jpg" }
     ]
   },
   {
@@ -86,7 +86,7 @@
     "partNumber": "CHR-T8-SEAT-D",
     "description": "Siège conducteur en cuir d'occasion en très bon état, démonté d'un Tiggo 8 Pro 2022 accidenté.",
     "images": [
-      { "url": "https://placehold.co/600x400/7c3aed/ffffff?text=Siège+conducteur" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/NIO_ET7_interior_driver_seat.jpg" }
     ]
   },
   {
@@ -101,7 +101,7 @@
     "partNumber": "GAT-T227RB",
     "description": "Kit courroie de distribution complet pour Toyota Land Cruiser 300 moteur 3.5 V6 Twin Turbo.",
     "images": [
-      { "url": "https://placehold.co/600x400/f97316/ffffff?text=Courroie+distribution" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Timing_belt_drive_components.jpg" }
     ]
   },
   {
@@ -116,7 +116,7 @@
     "partNumber": "BRB-08B51911",
     "description": "Paire de disques arrière ventilés pour MG 5. Diamètre 280mm.",
     "images": [
-      { "url": "https://placehold.co/600x400/dc2626/ffffff?text=Disques+de+frein" }
+      { "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Brembo_Disc_brake.jpg" }
     ]
   }
 ]
