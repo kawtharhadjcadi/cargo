@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "name": "BYD Han EV 2024",
+    "brand": "BYD",
+    "model": "Han EV",
+    "year": "2024",
+    "mileage": 0,
+    "engine": "400 kW",
+    "fuelType": "Électrique",
+    "transmission": "Automatique",
+    "bodyType": "Berline",
+    "doors": "4",
+    "seats": "5",
+    "price": 8500000,
+    "condition": "new",
+    "description": "La BYD Han EV est une berline électrique haut de gamme avec une autonomie de 605 km. Intérieur luxueux, technologie de pointe et performances exceptionnelles.",
+    "features": "Toit panoramique,Sièges chauffants,Caméra 360°,Chargeur sans fil,Affichage tête haute",
+    "images": [
+      { "url": "/images/car-elec.png", "colour": "Noir" },
+      { "url": "/images/car-sedan.png", "colour": "Blanc" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chery Tiggo 8 Pro 2024",
+    "brand": "Chery",
+    "model": "Tiggo 8 Pro",
+    "year": "2024",
+    "mileage": 0,
+    "engine": "2.0 Turbo",
+    "fuelType": "Essence",
+    "transmission": "Automatique",
+    "bodyType": "SUV",
+    "doors": "5",
+    "seats": "7",
+    "price": 6200000,
+    "condition": "new",
+    "description": "SUV 7 places avec moteur turbo 2.0L, boîte automatique CVT, équipements complets et design moderne.",
+    "features": "Écran tactile 12\",Apple CarPlay,Android Auto,Régulateur de vitesse adaptatif,Lane assist",
+    "images": [
+      { "url": "/images/car-suv.png", "colour": "Blanc" },
+      { "url": "/images/suv-car.png", "colour": "Gris" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Geely Coolray 2024",
+    "brand": "Geely",
+    "model": "Coolray",
+    "year": "2024",
+    "mileage": 0,
+    "engine": "1.5 Turbo",
+    "fuelType": "Essence",
+    "transmission": "Automatique",
+    "bodyType": "SUV",
+    "doors": "5",
+    "seats": "5",
+    "price": 4800000,
+    "condition": "new",
+    "description": "Compact SUV sportif avec moteur turbo 1.5L développant 177 ch. Finition soignée et technologie moderne.",
+    "features": "Jantes 18\",Toit ouvrant,Caméra de recul,Bluetooth,Climatisation automatique",
+    "images": [
+      { "url": "/images/car-suv.png", "colour": "Rouge" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Geely Emgrand 2024",
+    "brand": "Geely",
+    "model": "Emgrand",
+    "year": "2024",
+    "mileage": 0,
+    "engine": "1.5L",
+    "fuelType": "Essence",
+    "transmission": "Automatique",
+    "bodyType": "Berline",
+    "doors": "4",
+    "seats": "5",
+    "price": 3900000,
+    "condition": "new",
+    "description": "Berline Geely Emgrand 2024, finition élégante, faible consommation et équipements complets en série.",
+    "features": "Écran tactile 10\",Apple CarPlay,Bluetooth,Caméra recul,Climatisation auto",
+    "images": [
+      { "url": "/images/car-sedan.png", "colour": "Argent" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "BYD Seal 2024",
+    "brand": "BYD",
+    "model": "Seal",
+    "year": "2024",
+    "mileage": 0,
+    "engine": "390 kW AWD",
+    "fuelType": "Électrique",
+    "transmission": "Automatique",
+    "bodyType": "Berline",
+    "doors": "4",
+    "seats": "5",
+    "price": 9200000,
+    "condition": "new",
+    "description": "La sportive électrique BYD Seal AWD. 0 à 100 km/h en 3.8 secondes, autonomie 570 km, technologie blade battery.",
+    "features": "AWD,Mode sport,Sièges sport,Toit panoramique,Son Dynaudio,Affichage tête haute",
+    "images": [
+      { "url": "/images/car-sedan.png", "colour": "Noir" },
+      { "url": "/images/car-elec.png", "colour": "Blanc" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "SAIC MG 5 2023",
+    "brand": "MG",
+    "model": "MG 5",
+    "year": "2023",
+    "mileage": 18000,
+    "engine": "1.5 VTi",
+    "fuelType": "Essence",
+    "transmission": "Manuelle",
+    "bodyType": "Berline",
+    "doors": "4",
+    "seats": "5",
+    "price": 3200000,
+    "condition": "minus3",
+    "description": "Berline MG 5 2023 en excellent état, faible kilométrage, première main. Carnet d'entretien complet.",
+    "features": "Écran tactile,Caméra recul,Capteurs parking",
+    "images": [
+      { "url": "/images/car-sedan.png", "colour": "Blanc" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "BYD Dolphin 2023",
+    "brand": "BYD",
+    "model": "Dolphin",
+    "year": "2023",
+    "mileage": 12000,
+    "engine": "70 kW",
+    "fuelType": "Électrique",
+    "transmission": "Automatique",
+    "bodyType": "Citadine",
+    "doors": "4",
+    "seats": "5",
+    "price": 4100000,
+    "condition": "minus3",
+    "description": "Citadine électrique BYD Dolphin 2023. Autonomie 340 km, recharge rapide DC. Parfaite pour la ville.",
+    "features": "Sièges chauffants,Chargeur sans fil,Écran 12.8\",OTA Updates",
+    "images": [
+      { "url": "/images/car-elec.png", "colour": "Bleu ciel" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Chery Tiggo 4 Pro 2022",
+    "brand": "Chery",
+    "model": "Tiggo 4 Pro",
+    "year": "2022",
+    "mileage": 35000,
+    "engine": "1.6 Turbo",
+    "fuelType": "Essence",
+    "transmission": "Automatique",
+    "bodyType": "SUV",
+    "doors": "5",
+    "seats": "5",
+    "price": 3600000,
+    "condition": "minus3",
+    "description": "SUV Chery Tiggo 4 Pro 2022 bien entretenu. Toutes les révisions faites chez le concessionnaire.",
+    "features": "Apple CarPlay,Caméra 360°,Toit panoramique,Régulateur de vitesse",
+    "images": [
+      { "url": "/images/car-suv.png", "colour": "Gris" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Toyota Land Cruiser 2023",
+    "brand": "Toyota",
+    "model": "Land Cruiser",
+    "year": "2023",
+    "mileage": 8000,
+    "engine": "3.5 V6 Twin Turbo",
+    "fuelType": "Essence",
+    "transmission": "Automatique",
+    "bodyType": "SUV / 4x4",
+    "doors": "5",
+    "seats": "7",
+    "price": 14500000,
+    "condition": "minus3",
+    "description": "Toyota Land Cruiser 300 Series 2023, GR Sport. Capacités off-road exceptionnelles, luxe et fiabilité légendaire.",
+    "features": "Suspension pneumatique,Diff lock,Caméra multivue,Écran 9\",7 places cuir",
+    "images": [
+      { "url": "/images/suv-car.png", "colour": "Blanc" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "BYD Atto 3 — Location",
+    "brand": "BYD",
+    "model": "Atto 3",
+    "year": "2023",
+    "mileage": 22000,
+    "engine": "150 kW",
+    "fuelType": "Électrique",
+    "transmission": "Automatique",
+    "bodyType": "SUV",
+    "doors": "5",
+    "seats": "5",
+    "price": 8000,
+    "condition": "location",
+    "description": "SUV électrique BYD Atto 3 disponible à la location. Autonomie 420 km, assurance incluse, sans limite kilométrique.",
+    "features": "Chargeur de bord 7kW,Apple CarPlay,Caméra 360°,Bluetooth",
+    "images": [
+      { "url": "/images/car-suv.png", "colour": "Bleu" }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Chery Tiggo 7 Pro — Location",
+    "brand": "Chery",
+    "model": "Tiggo 7 Pro",
+    "year": "2022",
+    "mileage": 45000,
+    "engine": "1.6 Turbo",
+    "fuelType": "Essence",
+    "transmission": "Automatique",
+    "bodyType": "SUV",
+    "doors": "5",
+    "seats": "5",
+    "price": 6500,
+    "condition": "location",
+    "description": "SUV Chery Tiggo 7 Pro à louer. Parfait pour les déplacements professionnels ou familiaux. Kilométrage illimité.",
+    "features": "GPS,Bluetooth,Climatisation,Caméra recul",
+    "images": [
+      { "url": "/images/car-suv.png", "colour": "Blanc" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "MG ZS EV — Location",
+    "brand": "MG",
+    "model": "ZS EV",
+    "year": "2023",
+    "mileage": 15000,
+    "engine": "115 kW",
+    "fuelType": "Électrique",
+    "transmission": "Automatique",
+    "bodyType": "SUV",
+    "doors": "5",
+    "seats": "5",
+    "price": 7000,
+    "condition": "location",
+    "description": "MG ZS EV disponible à la location longue durée ou à la journée. Zéro émission, économique et confortable.",
+    "features": "Recharge rapide DC,Apple CarPlay,Caméra 360°,Toit ouvrant",
+    "images": [
+      { "url": "/images/car-elec.png", "colour": "Blanc" }
+    ]
+  }
+]

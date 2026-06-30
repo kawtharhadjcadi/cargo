@@ -1,1 +1,0 @@
-import{i as e,n as t}from"./mockData-CV5LtL3H.js";import{M as n}from"./index-BOIlzksH.js";var r=()=>(n(),e({queryKey:[`get-parts`],queryFn:()=>Promise.resolve(t)}));export{r as t};

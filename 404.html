@@ -1,10 +1,16 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <title>DZ Cargo</title>
     <script>
-      const path = window.location.pathname;
-      sessionStorage.setItem('redirect', path);
-      window.location.replace('/cargo/');
+      // Strip the /cargo repo prefix so the app router sees the correct path
+      var repo = '/cargo';
+      var full = window.location.pathname + window.location.search + window.location.hash;
+      var appPath = full.startsWith(repo) ? full.slice(repo.length) || '/' : full;
+      sessionStorage.setItem('redirect', appPath);
+      window.location.replace(window.location.origin + repo + '/');
     </script>
   </head>
+  <body></body>
 </html>

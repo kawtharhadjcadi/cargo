@@ -1,0 +1,1 @@
+import{n as e}from"./button-HPMbZXbV.js";import{M as t}from"./index-CJm3MS-u.js";var n=`/cargo/`,r=()=>(t(),e({queryKey:[`get-parts`],queryFn:()=>fetch(`${n}data/parts.json`).then(e=>e.json())}));export{r as t};
